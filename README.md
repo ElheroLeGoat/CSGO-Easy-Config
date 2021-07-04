@@ -69,7 +69,7 @@ The predefined weapons are:
 3. p250
 4. usps
 
-* * Is to be replaced with a name on the list.*
+*\*Is to be replaced with a name on the list.*
 
 ------------
 ```
@@ -88,7 +88,7 @@ The predefined grenadesets are:
 5. **smoke** \
   Sets all players to spawn with a Smoke grenade
 
-* * Is to be replaced with a name on the list.*
+*\*Is to be replaced with a name on the list.*
 
 ------------
 ```
@@ -103,7 +103,7 @@ The possible resets are:
 3. **sec** \
   the secondary weapon setting.
 
-* * Is to be replaced with a name on the list.*
+*\*Is to be replaced with a name on the list.*
 
 ------------
 #### Different Gamemodes.
