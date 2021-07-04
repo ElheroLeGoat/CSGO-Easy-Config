@@ -32,8 +32,8 @@ This command will show you the list of all possible commands, that way you'll ne
 ```
 exec aim/start
 ```
-This command nulls the freezetime and restarts the game.
-in case you select your weapon you need to run this command to actually begin the game.
+This command nulls the freezetime and restarts the game. \
+in case you select your weapon you need to run this command to actually begin the game. \
 *Note: Running Any of the gamemodes will auto start the game*
 
 ------------
@@ -42,7 +42,7 @@ you are able to select the start gear for all around (this is good if you want t
 ```
 exec aim/wp/prim-*
 ```
-This command is used to set a default weapon for the primary weapon.
+This command is used to set a default weapon for the primary weapon. \
 The predefined weapons are:
 1. ak
 2. aug
@@ -55,54 +55,55 @@ The predefined weapons are:
 9. sg
 10. ssg
 
-** Is to be replaced with a name on the list.*
+* * Is to be replaced with a name on the list.*
 
 ------------
 
 ```
 exec aim/wp/sec-*
 ```
-This command is used to set a default secondary weapon
+This command is used to set a default secondary weapon. \
 The predefined weapons are:
 1. deagle
 2. glock
 3. p250
 4. usps
 
-** Is to be replaced with a name on the list.*
+* * Is to be replaced with a name on the list.*
 
 ------------
 ```
 exec aim/wp/grenade-*
 ```
-This command is used to set a grenadeset.
+This command is used to set a grenadeset. \
 The predefined grenadesets are:
-1. **all** - Gives the player 2 Flashbangs, 1 HE grenade, 1 Molotov and  1 Smoke grenade
-2. **flash**
-Sets all players to spawn with 2 Flashbangs
-3. **he**
-Sets all players to spawn with a HE Grenade
-4. **molo**
-Sets all players to spawn with a Molotov
-5. **smoke**
-Sets all players to spawn with a Smoke grenade
+1. **all** \
+  Gives the player 2 Flashbangs, 1 HE grenade, 1 Molotov and  1 Smoke grenade
+2. **flash** \
+  Sets all players to spawn with 2 Flashbangs
+3. **he** \
+  Sets all players to spawn with a HE Grenade
+4. **molo** \
+  Sets all players to spawn with a Molotov
+5. **smoke** \
+  Sets all players to spawn with a Smoke grenade
 
-** Is to be replaced with a name on the list.*
+* * Is to be replaced with a name on the list.*
 
 ------------
 ```
 exec aim/wp/*-reset
 ```
-This command resets a weapon already set.
+This command resets a weapon already set. \
 The possible resets are:
-1. **grenade**
+1. **grenade** \
    the grenade setting.
-2. **prim**
+2. **prim** \
   the primary weapon setting.
-3. **sec**
+3. **sec** \
   the secondary weapon setting.
 
-** Is to be replaced with a name on the list.*
+* * Is to be replaced with a name on the list.*
 
 ------------
 #### Different Gamemodes.
@@ -111,12 +112,12 @@ the systems default gamemode is Competitive with a bunch of tweaks, but i have a
 ```
 exec aim/gm/ffadm
 ```
-Executes the Free for all deathmatch, no need to do anything else.
+Executes the Free for all deathmatch, no need to do anything else.\
 *Note: running `exec aim/init` again will reset the gamemode to default*
 
 ------------
 ```
 exec aim/gm/tdm
 ```
-Executes the Free for all deathmatch, no need to do anything else.
+Executes the Free for all deathmatch, no need to do anything else.\
 *Note: running `exec aim/init` again will reset the gamemode to default*
