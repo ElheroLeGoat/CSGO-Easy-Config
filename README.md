@@ -20,7 +20,7 @@ I have tried to make the system easy to navigate. but it do require you to remem
 ```
 exec aim/init
 ```
-this is the default gamemode, it sets alot of values so you won't have to think about it.
+This is the starting place, it runs the default gamemode: aim/gm/vs
 
 ------------
 ```
@@ -107,7 +107,7 @@ The possible resets are:
 
 ------------
 #### Different Gamemodes.
-the systems default gamemode is Competitive with a bunch of tweaks, but i have added 2 other gamemodes: Free For All Deathmatch & Team Deathmatch
+the systems default gamemode is Versus, but i have added multiple other gamemodes: Free For All Deathmatch, Team Deathmatch, training, kz, bhop and vs
 
 ```
 exec aim/gm/ffadm
@@ -120,4 +120,32 @@ Executes the Free for all deathmatch, no need to do anything else.\
 exec aim/gm/tdm
 ```
 Executes the Free for all deathmatch, no need to do anything else.\
+*Note: running `exec aim/init` again will reset the gamemode to default*
+
+------------
+```
+exec aim/gm/training
+```
+Executes the Training, no need to do anything else.\
+*Note: running `exec aim/init` again will reset the gamemode to default*
+
+------------
+```
+exec aim/gm/kz
+```
+Executes the KZ gamemode, no need to do anything else.\
+*Note: running `exec aim/init` again will reset the gamemode to default*
+
+------------
+```
+exec aim/gm/bhop
+```
+Executes the Bhop gamemode, no need to do anything else.\
+*Note: running `exec aim/init` again will reset the gamemode to default*
+
+------------
+```
+exec aim/gm/vs
+```
+Executes the default gamemode without resetting values from the previous modes.\
 *Note: running `exec aim/init` again will reset the gamemode to default*
